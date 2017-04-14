@@ -1,6 +1,8 @@
 dynalite
 --------
 
+> FORKED FROM https://github.com/mhart/dynalite
+
 [![Build Status](https://secure.travis-ci.org/mhart/dynalite.png?branch=master)](http://travis-ci.org/mhart/dynalite)
 
 An implementation of Amazon's DynamoDB, focussed on correctness and performance, and built on LevelDB
@@ -85,6 +87,14 @@ With [npm](http://npmjs.org/) do:
 
 ```sh
 $ npm install -g dynalite
+```
+
+Running under Docker
+--------------------
+
+Run:
+```sh
+$ docker run -p 4567:4567 richnorth/dynalite:latest
 ```
 
 TODO
